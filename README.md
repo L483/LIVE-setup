@@ -9,7 +9,7 @@ This script takes away all the finnicky bits of setting up an environment for th
 
 ## Prerequisites
 
-1. Having CUDA compatible hardware, i.e., an Nvidia GPU (the script will install the Nvidia CUDA toolkit in version 11.7)
+1. Having CUDA compatible hardware, the script will install the Nvidia CUDA toolkit in version 11.7
 2. Instantiating a **fresh** installation of **Ubuntu 18.04 LTS**
 3. Pulling this repository
 
