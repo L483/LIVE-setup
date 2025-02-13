@@ -14,6 +14,7 @@ sudo ln -sf /usr/bin/g++-5 /usr/bin/g++
 # install other dependencies
 sudo apt install librhash0
 sudo apt install make
+sudo apt install wget
 
 # install cuda
 wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin
@@ -37,7 +38,7 @@ echo "Reloading .bashrc..."
 source "$HOME/.bashrc"
 
 # install python3.7
-sudo apt install software-properties-common
+sudo apt install software-properties-common -y
 sudo add-apt-repository ppa:deadsnakes/ppa -y
 sudo apt install python3.7 -y
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 1
